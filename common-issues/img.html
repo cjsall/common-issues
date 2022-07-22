@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+    <!-- Här kikar vi på olika sätt att importera och använda bilder på
+    och vad som funkar olika bra -->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Min hemsida</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/base.css">
+  
+  </head>
+  <body>
+
+<!-- Testa att kommentera ut och kommentera in nedan filer för att se vad som händer
+när du tittar på filerna i webbläsaren -->
+
+    <section>
+      <!-- Den här bilden får inte rätt storlek -->
+      <div class="profileimg">
+        <!-- <img src="/enkel-struktur/images/david-clarke-sVtcRzphxbk-unsplash.jpg" alt="White and brown puppy" style="border: 10px dashed green;"> -->
+      </div>
+      <!-- Den här bilden visas inte, varför då? Titta på sökvägen -->
+      <img class="profileimg" src="david-clarke-sVtcRzphxbk-unsplash.jpg" alt="White and brown puppy" style="border: 10px dashed red;">
+      <!-- Den här bilden får rätt storlek den har också en relativ länk -->
+      <img class="profileimg" src="/enkel-struktur/images/david-clarke-sVtcRzphxbk-unsplash.jpg" alt="White and brown puppy" style="border: 10px dashed pink;">
+      <!-- Den här länken är en absolut länk men den funkar inte för vi saknar filformatet -->
+      <img class="profileimg" src="https://unsplash.com/photos/sVtcRzphxbk" alt="White and brown puppy" style="border: 10px dashed blue;">
+      <!-- Hittar du embedded länken till bilden så kan du hitta den absolut sökvägen (rätt URL: https://www.flickr.com/photos/54774684@N07/5076320636/) -->
+      <img class="profileimg" src="https://live.staticflickr.com/4107/5076320636_0eedd21901_k.jpg" alt="Flowers from my grandmas garden" style="border: 10px dashed peachpuff;">
+    </section>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+/* __________________Styling som hör till index.html__________________ */
+.space {
+  background-color: peachpuff;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1 {
+  font-family: 'Space Mono', monospace;
+}
+/* Här kan vi se ett exempel på !important för att få din styling att slå igenom.
+Detta bör oftas vara ett undantag att använda, du kan få din styling att funka
+på andra sätt och det är bra att hitta dem */
+a {
+  color: black !important;
+  text-decoration: none;
+}
+
+/* _________________Styling som hör till img.html__________________ */
+.profileimg {
+  width: 300px;
+  height: 600px;
+}
+
+/* _________________Styling som hör till icons.html__________________ */
+button {
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 40px;
+  margin: 10em;
+}
+/* Här kan vi se att color funkar inte, inte ens med !important.
+  Notera också att om du inte ger den en storlek så antar den original storleken */
+.cta-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: red !important;
+}
+.second-button {
+  background-image: url(/enkel-struktur/icons/chat-heart.svg);
+  background-repeat: no-repeat;
+}
+i {
+  font-size: 1em;
+}

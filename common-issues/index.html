@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+    <!-- Här kikar vi på hur en sätter upp sin struktur i sitt repo + 
+    vi kollar på hur en ska koppla CSS eller andra resurser i sitt dokument -->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Min hemsida</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Länka till ditt CSS dokument på något av dessa sätt -->
+    <!-- Viktigt att veta är att länka inte till SCSS eller SASS filen (den kompileras till CSS) -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="/common-issues/css/base.css">
+    <!-- Länka till dina script såhär -->
+    <link rel="script" href="js/scripts.js">
+    <!-- Länka till ex Bootstrap, eller liknande framework som ex Bulma -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- Länka till ex Google fonts (länken till fonten jag valt: https://fonts.google.com/specimen/Space+Mono?query=mono) -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">    
+  </head>
+
+  <!-- Testa att kommentera ut och kommentera in ovan filvägar för att se vad som händer
+när du tittar på filerna i webbläsaren -->
+
+  <body>
+    <section>
+      <div class="space">
+        <h1>Det här är en rubrik</h1>
+        <a href="img.html">Klicka för att se bilder</a>
+        <a href="icons.html">Klicka för att se ikonerna</a>
+      </div>
+    </section>
+  </body>
+</html>
