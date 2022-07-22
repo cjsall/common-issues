@@ -2,8 +2,8 @@
 Anton, Eja och Carolina ifrån 46elks går igenom vanliga problem som kan uppstå
 när du skapar din hemsida. Vi tittar på nedan saker i HTML, CSS, JS och ger förslag
 på strukturer som kan hjälpa dig när du kodar.
-Workshopen finns på Youtube och du hittar den här:
-<!-- LÄGG TILL FILMEN -->
+Workshopen finns på Youtube och du hittar den här: https://youtu.be/aRLmWCiNS-g
+
 
 ## Tips på hemsida att hitta ikoner på:
 - https://icons.getbootstrap.com/
